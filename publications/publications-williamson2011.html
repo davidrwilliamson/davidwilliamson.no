@@ -1,0 +1,86 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="publications/publications-boyle2011.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1><i>C. elegans</i> locomotion: a reduced model</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/publications/williamson2011/1.png" alt="" />
+                    </div>
+                </div>
+
+                <div class="project-description">
+                    <!-- Publication Abstract -->
+                    <ul class="project-general-info">
+                        <div class="block-title">
+                            <h3>Abstract</h3>
+                        </div>
+                        <p class="text-justify">The free-living nematode worm <i>Caenorhabditis elegans</i> is an important organism for scientific study. With only 302 neurons, its neural circuit is one of the simplest of any animal, and has been comprehensively mapped. Essential to understanding the worm’s behaviour is analysis of its movement in the environments it inhabits. In attempting to better understand and characterise this behaviour several models for simulating locomotion have been used. Despite its limited neural capacity, the worm’s behaviour is surprisingly complex and difficult to reproduce <i>in silico</i>. Models so far have therefore mostly focused on the simple case of forward movement on a solid surface or gel.</p>
+                        <p class="text-justify">More recently, an integrated physical and neural model for locomotion in a wider variety of environments has been suggested. One variant of this model is based on a larval stage in C. elegans’ life cycle, where the worm has a simpler, reduced neural control circuit, but still displays coordinated locomotion as in the adult. This project expands upon the idea of a simpler circuit, utilising the reduced complexity to develop a model for backward locomotion in order to create a more complete simulation of the worm’s movement. The results of this implementation are compared with data from the previous model, as well as experimental evidence, to assess its realism, and usefulness in making predictions about <i>C. elegans</i> behaviour.</p>
+                        <p class="text-justify">This project reports implementations of models for forward and backward locomotion in the larval circuit, a model for a modified, larva-sized body, backward locomotion in the adult worm, and models for ablation of inhibitory neurons in the larva and adult. The results of these models allow predictions to be made about the neural circuit for locomotion in live worms.</p>
+                    </ul>
+                    <!-- /Publication Abstract -->
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <!-- Publication Details -->
+                    <div class="block-title">
+                        <h3>Details</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-user"></i><strong>David R. Williamson</strong></p></li>
+                        <li><p><i class="fa fa-calendar"></i>2011</p></li>
+                        <li><p><i class="fas fa-map-marker-alt"></i>University of Leeds</p></li>
+                        <li><p><i class="fas fa-download"></i><a href="files/publications/williamson2011.pdf">Download</a></p></li>
+                    </ul>
+                    <!-- /Publication Details -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Keywords</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>C. elegans</a></li>
+                            <li><a>neuromuscular modelling</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>

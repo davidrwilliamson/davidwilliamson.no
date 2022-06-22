@@ -1,0 +1,89 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="publications/#.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="publications/#.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>TITLE</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/publications/#/1.png" alt="" />
+                    </div>
+                </div>
+
+                <div class="project-description">
+                    <!-- Publication Abstract -->
+                    <ul class="project-general-info">
+                        <div class="block-title">
+                            <h3>Abstract</h3>
+                        </div>
+                        <p class="text-justify"></p>
+                    </ul>
+                    <!-- /Publication Abstract -->
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <!-- Publication Details -->
+                    <div class="block-title">
+                        <h3>Details</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-user"></i>Author list</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">DOI</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i>Date</p></li>
+                        <li><p><i class="fas fa-map-marker-alt"></i>Where published</p></li>
+                        <li><p><i class="fas fa-download"></i><a href="#">Download</a></p></li>
+                    </ul>
+                    <!-- /Publication Details -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Keywords</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a></a></li>
+                            <li><a></a></li>
+                            <li><a></a></li>
+                            <li><a></a></li>
+                            <li><a></a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>

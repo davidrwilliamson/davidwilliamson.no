@@ -1,0 +1,96 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="publications/publications-williamson2011.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="publications/publications-williamson2012a.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>A minimal model of <i>C. elegans</i> forward locomotion: the larval L1 circuit</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/publications/boyle2011/1.png" alt="" />
+                    </div>
+                </div>
+
+                <div class="project-description">
+                    <!-- Publication Abstract -->
+                    <ul class="project-general-info">
+                        <div class="block-title">
+                            <h3>Abstract</h3>
+                        </div>
+                        <p class="text-justify">The nematode <i>Caernohabditis elegans</i> possesses one of the simplest central nervous systems, and by far the best characterized. In the adult, the nervous system consists of a mere 302 neurons, of which the majority are located in the head, and the rest are distributed in the pharynx, along the ventral cord or in small ganglia. In particular, the local control (along the body) of the worm's sinuous undulations is instantiated by 8 classes of ventral cord motor neurons. But of those, only 3 classes exist as the larva hatches out of the egg (the so called L1 stage in development). This appears quite remarkable, given the similar repertoire of behaviors in the larva, as compared to the fully developed adult.</p>
+
+                        <p class="text-justify">Here, we ask what minimal design principles must apply for the L1 circuit to generate robust forward locomotion. Robustness is taken to mean effective locomotion in different physical environments (e.g. high viscosity agar gels versus water). To address this challenge, we adopt an integrated neuromechanical model of forward locomotion in the adult that consists of the ventral cord nervous system, muscles, a body and a physical environment, and adapt the model nervous system and muscles to match the L1. In particular, we assume the forward locomotion control in the L1 consists of repeating units, each consisting only of a pair of neurons: one excitatory DB and one inhibitory DD. DB neurons are modeled as bistable elements innervating dorsal muscles, and DD neurons are modeled as linear elements inhibiting ventral muscles. High level control is modeled with an on/off AVB unit that drive all B-neurons. The rhythm is generated entirely on the dorsal side and is achieved by a closed-loop proprioceptive feedback (via postulated stretch sensitivity of DB neurons). Inhibitory neurons receive synaptic inputs from the local DB neuron and are therefore enslaved to its oscillations. The integrated model successfully generates and propagates coordinated undulations on agar and liquid model environments. In the model, both of these behaviors are achieved by a single (i.e., fixed-parameter) model worm.</p>
+
+                        <p class="text-justify">The model makes a number of relatively easily testable predictions:
+                        <ol>
+                            <li>L1 larva have a minimal, reflex-driven mechanism to control body undulations.</li>
+                            <li>Inhibitory D-neurons are essential for forward locomotion in the L1.</li>
+                            <li>Muscle properties must differ substantially between the ventral and dorsal side (specifically, ventral but not dorsal muscles must be spontaneously active).</li>
+                        </ol>
+                        </p>
+                    </ul>
+                    <!-- /Publication Abstract -->
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <!-- Publication Details -->
+                    <div class="block-title">
+                        <h3>Details</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-user"></i>Jordan H. Boyle, <strong>David R. Williamson</strong>, Netta Cohen</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="https://dx.doi.org/10.1186/1471-2202-12-S1-P42" target="_blank">DOI</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i>2011</p></li>
+                        <li><p><i class="fas fa-map-marker-alt"></i>Twentieth Annual Computational Neuroscience Meeting: CNS*2011, Stockholm, Sweden</p></li>
+                        <li><p><i class="fas fa-download"></i><a href="files/publications/boyle2011.png">Download</a></p></li>
+                    </ul>
+                    <!-- /Publication Details -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Keywords</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>C. elegans</a></li>
+                            <li><a>Neuromuscular modelling</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
